@@ -1,0 +1,18 @@
+# Project place file
+/BaseRobloxFramework.rbxlx
+
+# Roblox Studio lock files
+/*.rbxlx.lock
+/*.rbxl.lock
+
+# Project Files
+Packages/
+ServerPackages/
+sourcemap.json
+wally.lock
+
+# Network Files
+**/network/
+
+# macOS system files
+.DS_Store

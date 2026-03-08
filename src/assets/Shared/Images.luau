@@ -1,0 +1,3 @@
+local Images = {}
+
+return Images
