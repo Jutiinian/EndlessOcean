@@ -1,0 +1,103 @@
+{
+  "name": "Game-Framework",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Features": {
+        "$className": "Folder",
+        "Example": {
+          "$className": "Folder",
+          "ExampleClient": {
+            "$path": "src/features/Example/ExampleClient.luau"
+          },
+          "NetworkClient": {
+            "$path": "src/features/Example/network/Client.luau"
+          },
+          "UI": {
+            "$path": "src/features/Example/ui"
+          }
+        },
+        "Ocean": {
+          "$className": "Folder",
+          "OceanClient": {
+            "$path": "src/features/Ocean/OceanClient.luau"
+          },
+          "Bones": {
+            "$path": "src/features/Ocean/shared/Bones.luau"
+          },
+          "Configurations": {
+            "$path": "src/features/Ocean/shared/Configurations.luau"
+          },
+          "Planes": {
+            "$path": "src/features/Ocean/shared/Planes.luau"
+          },
+          "SinCosLookUp": {
+            "$path": "src/features/Ocean/shared/SinCosLookUp.luau"
+          }
+        }
+      },
+      "Services": {
+        "$className": "Folder"
+      },
+      "Shared": {
+        "$className": "Folder",
+        "$path": "src/shared"
+      },
+      "Assets": {
+        "$className": "Folder",
+        "$path": "src/assets/Shared"
+      },
+      "UI": {
+        "$className": "Folder",
+        "$path": "src/ui"
+      },
+      "Packages": {
+        "$path": "Packages"
+      }
+    },
+    "ServerStroage": {
+      "$className": "ServerStorage",
+      "Assets": {
+        "$className": "Folder",
+        "$path": "src/assets/Server"
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "Features": {
+        "$className": "Folder",
+        "Example": {
+          "$className": "Folder",
+          "ExampleServer": {
+            "$path": "src/features/Example/ExampleServer.luau"
+          },
+          "NetworkServer": {
+            "$path": "src/features/Example/network/Server.luau"
+          }
+        }
+      },
+      "Services": {
+        "$className": "Folder"
+      },
+      "ServerStartup": {
+        "$path": "src/startup/Server.server.luau"
+      },
+      "ServerPackages": {
+        "$path": "ServerPackages"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "ClientStartup": {
+          "$path": "src/startup/Client.client.luau"
+        },
+        "UIStartup": {
+          "$path": "src/startup/UI.client.luau"
+        }
+      }
+    }
+  }
+}
