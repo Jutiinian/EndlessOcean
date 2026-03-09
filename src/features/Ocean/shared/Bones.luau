@@ -93,8 +93,7 @@ function Bones.Register(self: Bones, bone: Bone)
 end
 
 function Bones.GetHeight(self: Bones, position: Vector3): number
-	-- TODO: Implement later
-	return Configurations.SeaLevel
+	return self:_evaluateWaves(position).Y + Configurations.SeaLevel
 end
 
 function Bones.Update(self: Bones, time: number)
