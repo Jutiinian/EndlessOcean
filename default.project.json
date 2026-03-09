@@ -35,6 +35,12 @@
           "SinCosLookUp": {
             "$path": "src/features/Ocean/shared/SinCosLookUp.luau"
           }
+        },
+        "OceanCamera": {
+          "$className": "Folder",
+          "OceanCameraClient": {
+            "$path": "src/features/OceanCamera/OceanCameraClient.luau"
+          }
         }
       },
       "Services": {
