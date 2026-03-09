@@ -38,6 +38,10 @@ function OceanClient.Init(self: OceanClient)
 	)
 end
 
+function OceanClient.GetHeight(self: OceanClient, position: Vector3): number
+	return self._bones:GetHeight(position)
+end
+
 function OceanClient.Cleanup(self: OceanClient)
 	self._janitor:Destroy()
 end
