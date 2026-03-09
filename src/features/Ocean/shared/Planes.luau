@@ -34,7 +34,7 @@ export type Planes = typeof(setmetatable(
 		_requiredList: { [number]: { gx: number, gz: number } },
 
 		_camera: Camera,
-		_bones: any, -- Bones system ref, injected on construction
+		_bones: Bones.Bones,
 		_janitor: Janitor.Janitor,
 
 		_active: { [string]: MeshPart },
